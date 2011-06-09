@@ -147,7 +147,7 @@ import-docs: Documentation/clean
 	git archive origin/man | (cd Documentation; tar -xvf -)
 
 clean: Documentation/clean
-	rm -f *.o lib/*/*.o *.so lib/*/*.so *.dll *.exe \
+	rm -f *.o lib/*/*.o *.so lib/*/*.so *.dll lib/*/*.dll *.exe \
 		.*~ *~ */*~ lib/*/*~ lib/*/*/*~ \
 		*.pyc */*.pyc lib/*/*.pyc lib/*/*/*.pyc \
 		bup bup-* cmd/bup-* lib/bup/_version.py randomgen memtest \
