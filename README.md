@@ -93,6 +93,7 @@ From source
 
  - Install the needed python libraries (including the development
    libraries).  On Debian or Ubuntu, this is usually:
+        
         apt-get install python2.6-dev python-fuse
         apt-get install python-pyxattr python-pylibacl
         
